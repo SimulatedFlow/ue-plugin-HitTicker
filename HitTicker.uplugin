@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"EngineVersion": "5.8.0",
+	"FriendlyName": "HitTicker - Floating Damage Numbers, Pooled and Budgeted",
+	"Description": "Thousands of floating damage numbers per second on a single canvas pass. No UUserWidget per hit, no allocation while the game runs: a fixed-size ring buffer, one draw pass per frame, a hard per-frame budget, screen-space overlap avoidance and same-target merging that turns thirty hits a second into one counting-up number. Styles are data assets, the numbers draw from AHUD or from a one-line call in your own HUD class, and the whole thing survives a cooked Shipping build.",
+	"Category": "UI",
+	"CreatedBy": "Silvan Teufel",
+	"CreatedByURL": "https://silvan.teufel-engineering.com",
+	"DocsURL": "https://github.com/SimulatedFlow/ue-plugin-HitTicker",
+	"SupportURL": "mailto:teufelsilvan@gmail.com",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "HitTicker",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	]
+}

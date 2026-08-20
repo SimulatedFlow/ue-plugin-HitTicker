@@ -63,7 +63,7 @@ growing total, not a wall of digits.
 | Engine | Unreal Engine 5.8 |
 | Type | Code plugin, C++ with full Blueprint API |
 | Modules | 1 runtime module (`HitTicker`), no editor module |
-| Platforms | Win64, macOS, Linux |
+| Platforms | Win64 — built and verified with `RunUAT BuildPlugin` for this release. macOS and Linux are allow-listed in the `.uplugin` and the code contains nothing platform-specific, but they were not built here and are therefore not claimed as supported. |
 | Dependencies | `Core`, `CoreUObject`, `Engine`, `DeveloperSettings`, `SlateCore`, `RenderCore` |
 | Third-party code | None |
 | Network replication | No — display only, driven by your own game code per client |

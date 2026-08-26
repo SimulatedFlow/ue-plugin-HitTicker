@@ -34,7 +34,7 @@ the game runs, one canvas pass per frame, and a hard budget you set.
 | **Engine version** | Unreal Engine **5.8** (`"EngineVersion": "5.8.0"`) |
 | **Type** | C++ code plugin with a complete Blueprint API |
 | **Modules** | One runtime module (`HitTicker`, `LoadingPhase: PreDefault`). No editor module. |
-| **Supported platforms** | **Win64, macOS, Linux** (`PlatformAllowList` in the `.uplugin`) |
+| **Supported platforms** | **Win64** (`PlatformAllowList` in the `.uplugin`) |
 | **Build configurations** | Debug, Development, **Shipping** — the draw path is `AHUD::DrawHUD`, which survives cooking |
 | **Module dependencies** | `Core`, `CoreUObject`, `Engine`, `DeveloperSettings`, `SlateCore` (public), `RenderCore` (private) |
 | **Third-party code** | None |
@@ -541,7 +541,7 @@ statistics box is for — run it on your own content rather than taking them on 
 - **No font included** (§11).
 - `MaxLiveNumbers` is read once per world; changing it takes effect on the next world load.
 - Styles are limited to 255 per project (the entry's style index is a `uint8`).
-- Verified platforms are Win64, macOS and Linux. The code is platform-neutral, but nothing else is
+- Verified platforms are Win64. The code is platform-neutral, but nothing else is
   shipped as verified.
 
 ---

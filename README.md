@@ -3,7 +3,7 @@
 **Floating damage numbers, pooled and budgeted.** Thousands per second on one canvas pass — no
 `UUserWidget` per hit, no allocation while the game runs, no frame spike.
 
-Unreal Engine 5.8 · one runtime module · Win64 / Mac / Linux · no third-party code.
+Unreal Engine 5.8 · one runtime module · Win64 · no third-party code.
 
 ---
 

@@ -50,8 +50,9 @@ control panel, the six style assets. Details in [`Docs/DOCUMENTATION.md`](Docs/D
 No combat system, no hit detection, no health bars, no UMG widget variant, no 3D world-space text, no
 replication, and no font (licensing — the styles use the engine default).
 
-Full documentation: [`Docs/DOCUMENTATION.md`](Docs/DOCUMENTATION.md).
+Full documentation, free and without an account: <https://wiki.teufel-engineering.com/en/HitTicker/documentation>
 
+The same manual ships with the plugin as [`Docs/DOCUMENTATION.md`](Docs/DOCUMENTATION.md).
 <!-- SF-STORE-BLOCK:BEGIN -->
 ## 🛒 Source-available — see before you buy
 

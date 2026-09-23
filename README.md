@@ -59,9 +59,8 @@ The same manual ships with the plugin as [`Docs/DOCUMENTATION.md`](Docs/DOCUMENT
 This repository contains the **full source** of a commercial Unreal Engine plugin. It is **source-available, not open source**: read it, evaluate it, then buy a license to use it. See **the Fab Content License Agreement / Unreal Engine EULA (purchase required)**.
 
 **Get it / Buy:**
+- **Buy on Fab** (this plugin): https://www.fab.com/listings/c935c2cc-e649-4f91-b14c-75ded34e3e63
 - Fab store — all our UE5 plugins: https://www.fab.com/sellers/Silvan%20Teufel
-
-_This plugin does not have its own Fab listing yet — the store link above is where everything we currently sell lives._
 
 ### 📬 **Free UE5 Snippet-Pack**
 
